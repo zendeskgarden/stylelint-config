@@ -3,12 +3,14 @@
 module.exports = {
   'rules': {
     // Specify indentation
-    'indentation': [2, 2],
+    'indentation': 2,
+    // Limit the length of a line
+    'max-line-length': 80,
+    // Disallow more than a specified number of adjacent empty lines
+    'max-empty-lines': 1,
     // Disallow end-of-line whitespace
-    'no-eol-whitespace': 2,
+    'no-eol-whitespace': true,
     // Disallow missing end-of-file newline
-    'no-missing-eof-newline': 2,
-    // Disallow multiple empty lines
-    'no-multiple-empty-lines': 0
+    'no-missing-eof-newline': true
   }
 };

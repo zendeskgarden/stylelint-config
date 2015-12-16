@@ -3,10 +3,14 @@
 module.exports = {
   'rules': {
     // Specify lowercase or uppercase for hex colors
-    'color-hex-case': [2, 'lower'],
+    'color-hex-case': 'lower',
     // Specify short or long notation for hex colors
-    'color-hex-length': [2, 'short'],
+    'color-hex-length': 'short',
+    // Disallow hex colors
+    'color-no-hex': null,
     // Disallow invalid hex colors
-    'color-no-invalid-hex': 2
+    'color-no-invalid-hex': true,
+    // Disallow named colors
+    'color-no-named': true
   }
 };
