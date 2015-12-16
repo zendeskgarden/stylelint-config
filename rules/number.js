@@ -3,12 +3,12 @@
 module.exports = {
   'rules': {
     // Require or disallow a leading zero for fractional numbers less than 1
-    'number-leading-zero': [2, 'never'],
+    'number-leading-zero': 'never',
     // Limit the number of decimal places allowed in numbers
-    'number-max-precision': 0,
+    'number-max-precision': null,
     // Disallow trailing zeros within numbers
-    'number-no-trailing-zeros': 2,
+    'number-no-trailing-zeros': true,
     // Disallow units for zero lengths
-    'number-zero-length-no-unit': 2
+    'number-zero-length-no-unit': true
   }
 };

@@ -3,14 +3,14 @@
 module.exports = {
   'rules': {
     // Require a single space or disallow whitespace after the colon in media features
-    'media-feature-colon-space-after': [2, 'always'],
+    'media-feature-colon-space-after': 'always',
     // Require a single space or disallow whitespace before the colon in media features
-    'media-feature-colon-space-before': [2, 'never'],
+    'media-feature-colon-space-before': 'never',
     // Disallow vendor prefixes for media feature names
-    'media-feature-name-no-vendor-prefix': 2,
+    'media-feature-name-no-vendor-prefix': true,
     // Require a single space or disallow whitespace after the range operator in media features
-    'media-feature-range-operator-space-after': [2, 'always'],
+    'media-feature-range-operator-space-after': 'always',
     // Require a single space or disallow whitespace before the range operator in media features
-    'media-feature-range-operator-space-before': [2, 'always']
+    'media-feature-range-operator-space-before': 'always'
   }
 };

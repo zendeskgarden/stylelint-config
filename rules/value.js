@@ -3,6 +3,6 @@
 module.exports = {
   'rules': {
     // Disallow vendor prefixes for values
-    'value-no-vendor-prefix': 2
+    'value-no-vendor-prefix': true
   }
 };
