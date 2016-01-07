@@ -2,5 +2,8 @@
   "name": "stylelint-config-zendesk",
   "version": "1.0.2",
   "private": true,
-  "main": "index.js"
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": ">=3.0.0"
+  }
 }
