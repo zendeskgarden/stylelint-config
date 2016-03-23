@@ -25,6 +25,9 @@ module.exports = {
     // Disallow animation names that do not correspond to a `@keyframes` declaration
     'no-unknown-animations': true,
     // Disallow features that are unsupported by the browsers that you are targeting
-    'no-unsupported-browser-features': [true, { 'severity': 'warning' }]
+    'no-unsupported-browser-features': [true, {
+      'browsers': 'last 2 versions',
+      'severity': 'warning'
+    }]
   }
 };
