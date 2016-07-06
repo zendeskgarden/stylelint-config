@@ -16,12 +16,18 @@ module.exports = {
     'function-comma-space-before': 'never',
     // Disallow direction values in `linear-gradient()` calls that are not valid according to the standard syntax
     'function-linear-gradient-no-nonstandard-direction': true,
+    // Limit the number of adjacent empty lines within functions
+    'function-max-empty-lines': 0,
+    // Specify lowercase or uppercase for function names
+    'function-name-case': 'lower',
     // Require a newline or disallow whitespace on the inside of the parentheses of functions
     'function-parentheses-newline-inside': 'never-multi-line',
     // Require a single space or disallow whitespace on the inside of the parentheses of functions
     'function-parentheses-space-inside': 'never',
-    // Specify single, double or no quotes for urls
-    'function-url-quotes': 'single',
+    // Require or disallow data URIs for urls
+    'function-url-data-uris': 'always',
+    // Require or disallow quotes for urls
+    'function-url-quotes': 'always',
     // Specify a whitelist of only allowed functions
     'function-whitelist': null,
     // Require a single space or disallow whitespace after functions

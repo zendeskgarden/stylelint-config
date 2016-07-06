@@ -8,12 +8,15 @@ module.exports = {
     './rules/function',
     './rules/number',
     './rules/string',
+    './rules/length',
     './rules/time',
     './rules/unit',
     './rules/value',
     './rules/value-list',
     './rules/custom-property',
+    './rules/shorthand-property',
     './rules/property',
+    './rules/keyframe-declaration',
     './rules/declaration',
     './rules/declaration-block',
     './rules/block',
@@ -26,6 +29,7 @@ module.exports = {
     './rules/media-query',
     './rules/media-query-list',
     './rules/at-rule',
+    './rules/stylelint-disable',
     './rules/comment',
     './rules/general'
   ]

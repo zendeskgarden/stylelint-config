@@ -7,8 +7,6 @@ module.exports = {
     // Limit the number of decimal places allowed in numbers
     'number-max-precision': null,
     // Disallow trailing zeros within numbers
-    'number-no-trailing-zeros': true,
-    // Disallow units for zero lengths
-    'number-zero-length-no-unit': true
+    'number-no-trailing-zeros': true
   }
 };
