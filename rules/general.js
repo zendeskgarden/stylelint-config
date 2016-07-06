@@ -16,8 +16,14 @@ module.exports = {
     'no-descending-specificity': true,
     // Disallow duplicate selectors
     'no-duplicate-selectors': true,
+    // Disallow empty sources
+    'no-empty-source': true,
     // Disallow end-of-line whitespace
     'no-eol-whitespace': true,
+    // Disallow extra semicolons
+    'no-extra-semicolons': true,
+    // Disallow colors that are suspiciously close to being identical
+    'no-indistinguishable-colors': null,
     // Disallow double-slash comments (`//...`) which are not supported by CSS
     'no-invalid-double-slash-comments': true,
     // Disallow missing end-of-file newline

@@ -4,6 +4,8 @@ module.exports = {
   'rules': {
     // Disallow duplicate properties within declaration blocks
     'declaration-block-no-duplicate-properties': true,
+    // Disallow property values that are ignored due to another property value in the same rule
+    'declaration-block-no-ignored-properties': true,
     // Disallow shorthand properties that override related longhand properties within declaration blocks
     'declaration-block-no-shorthand-property-overrides': true,
     // Specify the order of properties within declaration blocks
@@ -126,6 +128,7 @@ module.exports = {
     'declaration-block-semicolon-space-before': 'never',
     // Limit the number of declaration within a single line declaration block
     'declaration-block-single-line-max-declarations': 1,
+    // Require or disallow a trailing semicolon within declaration blocks
     'declaration-block-trailing-semicolon': 'always'
   }
 };
