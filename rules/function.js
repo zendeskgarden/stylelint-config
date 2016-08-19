@@ -26,6 +26,8 @@ module.exports = {
     'function-parentheses-space-inside': 'never',
     // Require or disallow data URIs for urls
     'function-url-data-uris': 'always',
+    // Disallow scheme-relative urls
+    'function-url-no-scheme-relative': null,
     // Require or disallow quotes for urls
     'function-url-quotes': 'always',
     // Specify a whitelist of only allowed functions
