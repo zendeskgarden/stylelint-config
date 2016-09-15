@@ -20,6 +20,8 @@ module.exports = {
     'selector-combinator-space-after': 'always',
     // Require a single space or disallow whitespace before the combinators of selectors
     'selector-combinator-space-before': 'always',
+    // Disallow non-space characters for descendant combinators of selectors
+    'selector-descendant-combinator-no-non-space': true,
     // Specify a pattern for id selectors
     'selector-id-pattern': null,
     // Limit the number of compound selectors in a selector

@@ -8,6 +8,8 @@ module.exports = {
     'media-feature-colon-space-before': 'never',
     // Specify lowercase or uppercase for media feature names
     'media-feature-name-case': 'lower',
+    // Disallow unknown media feature names
+    'media-feature-name-no-unknown': true,
     // Disallow vendor prefixes for media feature names
     'media-feature-name-no-vendor-prefix': true,
     // Disallow missing punctuation for non-boolean media features
