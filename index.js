@@ -26,7 +26,6 @@ module.exports = {
     './rules/rule',
     './rules/media-feature',
     './rules/custom-media',
-    './rules/media-query',
     './rules/media-query-list',
     './rules/at-rule',
     './rules/stylelint-disable',

@@ -26,8 +26,8 @@ module.exports = {
     'no-indistinguishable-colors': null,
     // Disallow double-slash comments (`//...`) which are not supported by CSS
     'no-invalid-double-slash-comments': true,
-    // Disallow missing end-of-file newline
-    'no-missing-eof-newline': true,
+    // Disallow missing end-of-source newline
+    'no-missing-end-of-source-newline': true,
     // Disallow animation names that do not correspond to a `@keyframes` declaration
     'no-unknown-animations': true,
     // Disallow features that are unsupported by the browsers that you are targeting
