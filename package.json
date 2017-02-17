@@ -4,6 +4,7 @@
   "private": true,
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.2.x"
+    "stylelint": "^7.2.x",
+    "stylelint-order": "^0.2.2"
   }
 }

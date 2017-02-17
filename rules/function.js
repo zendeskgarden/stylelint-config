@@ -29,7 +29,9 @@ module.exports = {
     // Disallow scheme-relative urls
     'function-url-no-scheme-relative': null,
     // Require or disallow quotes for urls
-    'function-url-quotes': 'always',
+    'function-url-quotes': ['always', {
+      except: ['empty']
+    }],
     // Specify a whitelist of allowed url schemes
     'function-url-scheme-whitelist': null,
     // Specify a whitelist of only allowed functions

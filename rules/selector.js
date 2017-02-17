@@ -60,8 +60,6 @@ module.exports = {
     'selector-pseudo-element-colon-notation': null,
     // Disallow unknown pseudo-element selectors
     'selector-pseudo-element-no-unknown': true,
-    // Disallow the composition of `:root` selectors
-    'selector-root-no-composition': true,
     // Specify lowercase or uppercase for type selector
     'selector-type-case': 'lower',
     // Disallow unknown type selectors

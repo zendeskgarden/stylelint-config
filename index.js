@@ -2,6 +2,7 @@
 
 module.exports = {
   'extends': [
+    './rules/stylelint-order',
     './rules/color',
     './rules/font-family',
     './rules/font-weight',
@@ -22,13 +23,11 @@ module.exports = {
     './rules/block',
     './rules/selector',
     './rules/selector-list',
-    './rules/root',
     './rules/rule',
     './rules/media-feature',
     './rules/custom-media',
     './rules/media-query-list',
     './rules/at-rule',
-    './rules/stylelint-disable',
     './rules/comment',
     './rules/general'
   ]
