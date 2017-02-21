@@ -7,7 +7,9 @@ module.exports = {
     // Disallow more than a specified number of adjacent empty lines
     'max-empty-lines': 1,
     // Limit the length of a line
-    'max-line-length': 80,
+    'max-line-length': [80, {
+      ignorePattern: ['/--zd-.+/']
+    }],
     // Limit the depth of nesting
     'max-nesting-depth': 2,
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity
