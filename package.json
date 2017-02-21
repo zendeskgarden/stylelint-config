@@ -1,9 +1,10 @@
 {
   "name": "stylelint-config-zendesk",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "private": true,
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.2.x"
+    "stylelint": "^7.9.x",
+    "stylelint-order": "^0.3.0"
   }
 }

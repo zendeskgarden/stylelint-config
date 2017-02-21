@@ -6,7 +6,7 @@ module.exports = {
     'at-rule-blacklist': null,
     // Require or disallow an empty line before @rules
     'at-rule-empty-line-before': ['always', {
-      except: ['blockless-group', 'all-nested'],
+      except: ['blockless-after-blockless', 'inside-block'],
       ignore: ['after-comment']
     }],
     // Specify lowercase or uppercase for at-rules names
