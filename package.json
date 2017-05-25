@@ -1,6 +1,6 @@
 {
   "name": "@zendesk/garden-stylelint-config",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "repository": "zendeskgarden/stylelint-config",
   "license": "UNLICENSED",
   "publishConfig": {
