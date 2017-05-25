@@ -4,7 +4,7 @@ module.exports = {
   'plugins': [ 'stylelint-order' ],
   'rules': {
     // https://github.com/brigade/scss-lint/blob/master/data/property-sort-orders/concentric.txt
-    'order/declaration-block-properties-specified-order': [
+    'order/properties-order': [
       'display',
       'position',
       'top',
