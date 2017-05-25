@@ -1,10 +1,13 @@
 {
-  "name": "stylelint-config-zendesk",
+  "name": "@zendesk/garden-stylelint-config",
   "version": "4.1.0",
   "private": true,
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.9.x",
-    "stylelint-order": "^0.3.0"
+    "stylelint": "^7.10.x",
+    "stylelint-order": "^0.4.x"
+  },
+  "scripts": {
+    "test": "true"
   }
 }

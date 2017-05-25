@@ -1,13 +1,17 @@
-# Zendesk Garden stylelint Config
+# Zendesk Garden stylelint Config [![Build Status](https://travis-ci.com/zendeskgarden/stylelint-config.svg?token=dDt9s6smCMgz269xNbpz&branch=master)](https://travis-ci.com/zendeskgarden/stylelint-config)
 
 The `stylelint-config` package exposes a shareable [stylelint
 config](http://stylelint.io/?%2Fdocs%2Fuser-guide%2Fconfiguration.md).
 
 ## Installation
 
-    $ npm install --save-dev stylelint
-    $ npm install --save-dev stylelint-order
-    $ npm install --save-dev git+ssh://git@github.com:zendeskgarden/stylelint-config.git
+    npm install --save-dev stylelint
+    npm install --save-dev stylelint-order
+    npm install --save-dev @zendesk/garden-stylelint-config
+
+See [package registry
+documentation](https://github.com/zendeskgarden/LANDSCAPE/wiki/Package-Registry)
+for the configuration needed to install `@zendesk`-scoped packages.
 
 ## Usage
 
@@ -15,7 +19,7 @@ Add a `.stylelintrc` to your project with an `extends` property like this:
 
 ```json
 {
-  "extends": "stylelint-config-zendesk"
+  "extends": "@zendesk/garden-stylelint-config"
 }
 ```
 
