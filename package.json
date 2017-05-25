@@ -1,7 +1,11 @@
 {
   "name": "@zendesk/garden-stylelint-config",
   "version": "4.1.0",
-  "private": true,
+  "repository": "zendeskgarden/stylelint-config",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://zdrepo.jfrog.io/zdrepo/api/npm/npm"
+  },
   "main": "index.js",
   "peerDependencies": {
     "stylelint": "^7.10.x",
