@@ -1,9 +1,10 @@
 # Change Log
 
-## [4.2.0] - 2017-05-25
+## [5.0.0] - 2017-05-26
 ### Changed (per [#8](https://github.com/zendeskgarden/stylelint-config/pull/8))
 - Prepared package for registry publish as
-  `@zendesk/garden-stylelint-config`.
+  `@zendesk/garden-stylelint-config`. See README for updated
+  installation and usage.
 - Update `stylelint` peer dependency to version 7.10.x.
 - Update `stylint-order` peer dependency to version 0.4.x.
 
@@ -30,7 +31,7 @@
 
 ## 0.1.0 - 2015-10-19
 
-[4.2.0]: https://github.com/zendeskgarden/stylelint-config/compare/4.1.0...v4.2.0
+[5.0.0]: https://github.com/zendeskgarden/stylelint-config/compare/4.1.0...v5.0.0
 [4.1.0]: https://github.com/zendeskgarden/stylelint-config/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/zendeskgarden/stylelint-config/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/zendeskgarden/stylelint-config/compare/2.0.0...3.0.0
