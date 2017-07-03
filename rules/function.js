@@ -31,9 +31,9 @@ module.exports = {
       except: ['empty']
     }],
     // Specify a blacklist of disallowed url schemes
-    'function-url-scheme-blacklist': ['data'],
+    'function-url-scheme-blacklist': null,
     // Specify a whitelist of allowed url schemes
-    'function-url-scheme-whitelist': null,
+    'function-url-scheme-whitelist': ['data', '/^http/'],
     // Specify a whitelist of only allowed functions
     'function-whitelist': null,
     // Require a single space or disallow whitespace after functions
