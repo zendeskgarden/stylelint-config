@@ -8,10 +8,12 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.10.x",
-    "stylelint-order": "^0.4.x"
+    "stylelint": "^7.12.x",
+    "stylelint-order": "^0.5.x"
   },
   "scripts": {
+    "nuke": "rm -rf node_modules package-lock.json",
+    "rebuild": "npm run nuke && npm install",
     "test": "true"
   }
 }

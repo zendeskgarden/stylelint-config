@@ -24,24 +24,28 @@ module.exports = {
     'selector-descendant-combinator-no-non-space': true,
     // Specify a pattern for id selectors
     'selector-id-pattern': null,
+    // Limit the number of attribute selectors in a selector
+    'selector-max-attribute': null,
+    // Limit the number of classes in a selector
+    'selector-max-class': null,
+    // Limit the number of combinators in a selector
+    'selector-max-combinators': null,
     // Limit the number of compound selectors in a selector
     'selector-max-compound-selectors': 3,
+    // Limit the number of adjacent empty lines within selectors
+    'selector-max-empty-lines': 0,
+    // Limit the number of id selectors in a selector
+    'selector-max-id': 0,
     // Limit the specificity of selectors
     'selector-max-specificity': '0,3,1',
+    // Limit the number of type in a selector
+    'selector-max-type': null,
+    // Limit the number of universal selectors in a selector
+    'selector-max-universal': null,
     // Specify a pattern for the selectors of rules nested within rules
     'selector-nested-pattern': null,
-    // Disallow attribute selectors
-    'selector-no-attribute': null,
-    // Disallow combinators in selectors
-    'selector-no-combinator': null,
-    // Disallow id selectors
-    'selector-no-id': true,
     // Disallow qualifying a selector by type
     'selector-no-qualifying-type': [true, { 'ignore': 'class' }],
-    // Disallow type selectors
-    'selector-no-type': null,
-    // Disallow universal selectors
-    'selector-no-universal': null,
     // Disallow vendor prefixes for selectors
     'selector-no-vendor-prefix': true,
     // Specify a blacklist of disallowed pseudo-class selectors
@@ -63,8 +67,6 @@ module.exports = {
     // Specify lowercase or uppercase for type selector
     'selector-type-case': 'lower',
     // Disallow unknown type selectors
-    'selector-type-no-unknown': true,
-    // Limit the number of adjacent empty lines within selectors
-    'selector-max-empty-lines': 0
+    'selector-type-no-unknown': true
   }
 };

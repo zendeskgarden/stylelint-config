@@ -24,16 +24,16 @@ module.exports = {
     'function-parentheses-newline-inside': 'never-multi-line',
     // Require a single space or disallow whitespace on the inside of the parentheses of functions
     'function-parentheses-space-inside': 'never',
-    // Require or disallow data URIs for urls
-    'function-url-data-uris': 'always',
     // Disallow scheme-relative urls
     'function-url-no-scheme-relative': null,
     // Require or disallow quotes for urls
     'function-url-quotes': ['always', {
       except: ['empty']
     }],
+    // Specify a blacklist of disallowed url schemes
+    'function-url-scheme-blacklist': null,
     // Specify a whitelist of allowed url schemes
-    'function-url-scheme-whitelist': null,
+    'function-url-scheme-whitelist': ['data', '/^http/'],
     // Specify a whitelist of only allowed functions
     'function-whitelist': null,
     // Require a single space or disallow whitespace after functions
