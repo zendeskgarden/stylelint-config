@@ -1,5 +1,9 @@
 # Change Log
 
+## [5.1.0] - 2017-07-10
+### Changed (per [#9](https://github.com/zendeskgarden/stylelint-config/pull/9))
+- Upgraded to extend stylelint 7.12.x and stylelint-order 0.5.x.
+
 ## [5.0.0] - 2017-05-26
 ### Changed (per [#8](https://github.com/zendeskgarden/stylelint-config/pull/8))
 - Prepared package for registry publish as
@@ -31,6 +35,7 @@
 
 ## 0.1.0 - 2015-10-19
 
+[5.1.0]: https://github.com/zendeskgarden/stylelint-config/compare/v5.0.0...v5.1.0
 [5.0.0]: https://github.com/zendeskgarden/stylelint-config/compare/4.1.0...v5.0.0
 [4.1.0]: https://github.com/zendeskgarden/stylelint-config/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/zendeskgarden/stylelint-config/compare/3.0.0...4.0.0
