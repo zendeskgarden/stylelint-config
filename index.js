@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'extends': [
+  extends: [
     './rules/possible-errors/color',
     './rules/possible-errors/font-family',
     './rules/possible-errors/function',

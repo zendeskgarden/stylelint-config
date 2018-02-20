@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow an empty line before @rules
     'at-rule-empty-line-before': ['always', {
       except: ['blockless-after-blockless', 'inside-block'],

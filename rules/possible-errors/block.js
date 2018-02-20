@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow empty blocks
     'block-no-empty': true
   }

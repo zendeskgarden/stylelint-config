@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require a single space or disallow whitespace after the bang of declarations
     'declaration-bang-space-after': 'never',
     // Require a single space or disallow whitespace before the bang of declarations

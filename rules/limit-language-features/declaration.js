@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow `!important` within declarations
     'declaration-no-important': true,
     // Specify a blacklist of disallowed property and unit pairs within declarations

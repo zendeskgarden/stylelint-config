@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow a leading zero for fractional numbers less than 1
     'number-leading-zero': 'never',
     // Disallow trailing zeros within numbers

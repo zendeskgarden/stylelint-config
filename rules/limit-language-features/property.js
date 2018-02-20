@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify a blacklist of disallowed properties
     'property-blacklist': null,
     // Disallow vendor prefixes for properties

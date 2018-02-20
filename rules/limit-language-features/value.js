@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow vendor prefixes for values
     'value-no-vendor-prefix': true
   }

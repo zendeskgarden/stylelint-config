@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify indentation
     'indentation': 2,
     // Disallow more than a specified number of adjacent empty lines

@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Limit the number of decimal places allowed in numbers
     'number-max-precision': null
   }

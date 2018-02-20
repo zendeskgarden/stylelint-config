@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow invalid hex colors
     'color-no-invalid-hex': true
   }

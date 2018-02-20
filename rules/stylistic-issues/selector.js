@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors
     'selector-attribute-brackets-space-inside': 'never',
     // Require a single space or disallow whitespace after operators within attribute selectors

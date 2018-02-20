@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require a newline or disallow whitespace after the semicolons of declaration blocks
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     // Require a newline or disallow whitespace before the semicolons of declaration blocks

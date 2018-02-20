@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify a blacklist of disallowed attribute operators
     'selector-attribute-operator-blacklist': null,
     // Specify a whitelist of allowed attribute operators
@@ -31,7 +29,7 @@ module.exports = {
     // Specify a pattern for the selectors of rules nested within rules
     'selector-nested-pattern': null,
     // Disallow qualifying a selector by type
-    'selector-no-qualifying-type': [true, { 'ignore': 'class' }],
+    'selector-no-qualifying-type': [true, { ignore: 'class' }],
     // Disallow vendor prefixes for selectors
     'selector-no-vendor-prefix': true,
     // Specify a blacklist of disallowed pseudo-class selectors
