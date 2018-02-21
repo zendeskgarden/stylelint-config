@@ -1,5 +1,7 @@
 # Garden stylelint Config [![Build Status](https://travis-ci.com/zendeskgarden/stylelint-config.svg?token=dDt9s6smCMgz269xNbpz&branch=master)](https://travis-ci.com/zendeskgarden/stylelint-config)
 
+> :seedling: Garden is a design system for Zendesk
+
 This package exposes a shareable [stylelint
 config](http://stylelint.io/?%2Fdocs%2Fuser-guide%2Fconfiguration.md).
 

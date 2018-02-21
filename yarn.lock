@@ -71,9 +71,9 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@zendesk/eslint-config-garden@^4.0.0":
-  version "4.0.0"
-  resolved "https://zdrepo.jfrog.io/zdrepo/api/npm/npm/@zendesk/eslint-config-garden/-/@zendesk/eslint-config-garden-4.0.0.tgz#ec48e5979335bce9afe95c518291ed940a5cee6a"
+"@zendesk/eslint-config-garden@^4.1.0":
+  version "4.1.0"
+  resolved "https://zdrepo.jfrog.io/zdrepo/api/npm/npm/@zendesk/eslint-config-garden/-/@zendesk/eslint-config-garden-4.1.0.tgz#80eeb435ec736c7bbe75d85a63ac5a2e264efb31"
 
 JSONStream@^1.0.4:
   version "1.3.2"
