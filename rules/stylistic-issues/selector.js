@@ -21,7 +21,7 @@ module.exports = {
     // Specify lowercase or uppercase for pseudo-element selectors
     'selector-pseudo-element-case': 'lower',
     // Specify single or double colon notation for applicable pseudo-elements
-    'selector-pseudo-element-colon-notation': null,
+    'selector-pseudo-element-colon-notation': 'double',
     // Specify lowercase or uppercase for type selector
     'selector-type-case': 'lower'
   }

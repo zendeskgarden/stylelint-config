@@ -6,6 +6,10 @@ module.exports = {
     'selector-attribute-operator-whitelist': null,
     // Specify a pattern for class selectors
     'selector-class-pattern': null,
+    // Specify a blacklist of disallowed combinators
+    'selector-combinator-blacklist': null,
+    // Specify a whitelist of allowed combinators
+    'selector-combinator-whitelist': null,
     // Specify a pattern for id selectors
     'selector-id-pattern': null,
     // Limit the number of attribute selectors in a selector
@@ -35,6 +39,10 @@ module.exports = {
     // Specify a blacklist of disallowed pseudo-class selectors
     'selector-pseudo-class-blacklist': null,
     // Specify a whitelist of allowed pseudo-class selectors
-    'selector-pseudo-class-whitelist': null
+    'selector-pseudo-class-whitelist': null,
+    // Specify a blacklist of disallowed pseudo-element selectors
+    'selector-pseudo-element-blacklist': null,
+    // Specify a whitelist of allowed pseudo-element selectors
+    'selector-pseudo-element-whitelist': null
   }
 };

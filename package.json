@@ -22,17 +22,17 @@
     "test": "yarn lint && yarn format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^8.2.x",
+    "stylelint": "^9.x",
     "stylelint-order": "^0.8.x"
   },
   "devDependencies": {
     "@zendesk/eslint-config-garden": "^4.0.0",
     "babel-eslint": "^8.2.2",
-    "eslint": "^4.18.0",
+    "eslint": "^4.18.1",
     "husky": "^0.15.0-rc.8",
     "prettier-package-json": "^1.4.0",
     "standard-version": "^4.3.0",
-    "stylelint": "^9.0.0",
+    "stylelint": "^9.1.0",
     "stylelint-order": "^0.8.1"
   },
   "keywords": [
