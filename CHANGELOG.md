@@ -1,5 +1,22 @@
 # Change Log
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v6.0.0...v7.0.0) (2018-02-21)
+
+
+### Features
+
+* upgrade to support stylelint 9.x ([#11](https://github.com/zendeskgarden/stylelint-config/issues/11)) ([10ca8e3](https://github.com/zendeskgarden/stylelint-config/commit/10ca8e3))
+
+
+### BREAKING CHANGES
+
+* upgraded to extend stylelint 9.1.x and stylelint-order 0.8.x.
+
+
+
 <a name="6.0.0"></a>
 ## [6.0.0] - 2017-11-16
 ### Changed (per [#10](https://github.com/zendeskgarden/stylelint-config/pull/10))
