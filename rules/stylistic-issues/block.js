@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow an empty line before the closing brace of blocks
     'block-closing-brace-empty-line-before': 'never',
     // Require a newline or disallow whitespace after the closing brace of blocks

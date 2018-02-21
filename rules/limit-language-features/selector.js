@@ -1,13 +1,15 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify a blacklist of disallowed attribute operators
     'selector-attribute-operator-blacklist': null,
     // Specify a whitelist of allowed attribute operators
     'selector-attribute-operator-whitelist': null,
     // Specify a pattern for class selectors
     'selector-class-pattern': null,
+    // Specify a blacklist of disallowed combinators
+    'selector-combinator-blacklist': null,
+    // Specify a whitelist of allowed combinators
+    'selector-combinator-whitelist': null,
     // Specify a pattern for id selectors
     'selector-id-pattern': null,
     // Limit the number of attribute selectors in a selector
@@ -31,12 +33,16 @@ module.exports = {
     // Specify a pattern for the selectors of rules nested within rules
     'selector-nested-pattern': null,
     // Disallow qualifying a selector by type
-    'selector-no-qualifying-type': [true, { 'ignore': 'class' }],
+    'selector-no-qualifying-type': [true, { ignore: 'class' }],
     // Disallow vendor prefixes for selectors
     'selector-no-vendor-prefix': true,
     // Specify a blacklist of disallowed pseudo-class selectors
     'selector-pseudo-class-blacklist': null,
     // Specify a whitelist of allowed pseudo-class selectors
-    'selector-pseudo-class-whitelist': null
+    'selector-pseudo-class-whitelist': null,
+    // Specify a blacklist of disallowed pseudo-element selectors
+    'selector-pseudo-element-blacklist': null,
+    // Specify a whitelist of allowed pseudo-element selectors
+    'selector-pseudo-element-whitelist': null
   }
 };

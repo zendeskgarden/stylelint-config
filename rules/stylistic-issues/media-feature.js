@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require a single space or disallow whitespace after the colon in media features
     'media-feature-colon-space-after': 'always',
     // Require a single space or disallow whitespace before the colon in media features

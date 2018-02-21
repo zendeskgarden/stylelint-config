@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow unknown pseudo-class selectors
     'selector-pseudo-class-no-unknown': true,
     // Disallow unknown pseudo-element selectors

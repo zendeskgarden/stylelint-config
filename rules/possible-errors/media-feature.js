@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow unknown media feature names
     'media-feature-name-no-unknown': true
   }

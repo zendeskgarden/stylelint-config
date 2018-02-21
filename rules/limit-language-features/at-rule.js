@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify a blacklist of disallowed at-rules
     'at-rule-blacklist': null,
     // Disallow vendor prefixes for @rules

@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow duplicate properties within declaration blocks
     'declaration-block-no-duplicate-properties': [true, {
       ignoreProperties: ['composes']

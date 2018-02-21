@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require a single space or disallow whitespace on the inside of the brackets within attribute selectors
     'selector-attribute-brackets-space-inside': 'never',
     // Require a single space or disallow whitespace after operators within attribute selectors
@@ -23,7 +21,7 @@ module.exports = {
     // Specify lowercase or uppercase for pseudo-element selectors
     'selector-pseudo-element-case': 'lower',
     // Specify single or double colon notation for applicable pseudo-elements
-    'selector-pseudo-element-colon-notation': null,
+    'selector-pseudo-element-colon-notation': 'double',
     // Specify lowercase or uppercase for type selector
     'selector-type-case': 'lower'
   }

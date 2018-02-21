@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow unknown at-rules
     'at-rule-no-unknown': true
   }

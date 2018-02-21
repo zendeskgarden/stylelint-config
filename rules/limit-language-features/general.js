@@ -1,8 +1,6 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Limit the depth of nesting
-    'max-nesting-depth': 2,
+    'max-nesting-depth': 2
   }
 };

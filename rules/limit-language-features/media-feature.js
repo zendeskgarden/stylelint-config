@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify a blacklist of disallowed media feature names
     'media-feature-name-blacklist': null,
     // Disallow vendor prefixes for media feature names

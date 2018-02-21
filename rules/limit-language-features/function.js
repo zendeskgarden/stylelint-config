@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify a blacklist of disallowed functions
     'function-blacklist': null,
     // Disallow scheme-relative urls

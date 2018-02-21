@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require a newline or disallow whitespace after the commas of selector lists
     'selector-list-comma-newline-after': 'always-multi-line',
     // Require a newline or disallow whitespace before the commas of selector lists

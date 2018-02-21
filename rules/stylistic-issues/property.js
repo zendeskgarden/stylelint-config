@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Specify lowercase or uppercase for properties
     'property-case': 'lower'
   }

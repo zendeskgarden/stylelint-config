@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Disallow selectors of lower specificity from coming after overriding selectors of higher specificity
     'no-descending-specificity': true,
     // Disallow duplicate selectors

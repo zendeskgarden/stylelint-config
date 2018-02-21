@@ -1,11 +1,9 @@
-'use strict';
-
 module.exports = {
-  'rules': {
+  rules: {
     // Require or disallow an empty line before rules
     'rule-empty-line-before': ['always', {
-      'except': ['first-nested'],
-      'ignore': ['after-comment']
+      except: ['first-nested'],
+      ignore: ['after-comment']
     }]
   }
 };
