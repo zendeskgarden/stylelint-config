@@ -1,5 +1,6 @@
 # Change Log
 
+<a name="6.0.0"></a>
 ## [6.0.0] - 2017-11-16
 ### Changed (per [#10](https://github.com/zendeskgarden/stylelint-config/pull/10))
 - Upgraded to extend stylelint 8.2.x and stylelint-order 0.7.x.

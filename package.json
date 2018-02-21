@@ -15,7 +15,9 @@
   ],
   "scripts": {
     "format": "prettier-package-json --write",
-    "lint": "eslint index.js plugins/*.js rules/**/*.js",
+    "lint": "yarn lint:css && yarn lint:js",
+    "lint:css": "echo 'a { all: unset; }' | yarn stylelint --config index.js",
+    "lint:js": "eslint index.js plugins/*.js rules/**/*.js",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'master' ] && standard-version --no-verify",
     "test": "yarn lint && yarn format && git diff --quiet"
   },
@@ -29,7 +31,9 @@
     "eslint": "^4.18.0",
     "husky": "^0.15.0-rc.8",
     "prettier-package-json": "^1.4.0",
-    "standard-version": "^4.3.0"
+    "standard-version": "^4.3.0",
+    "stylelint": "^9.0.0",
+    "stylelint-order": "^0.8.1"
   },
   "keywords": [
     "garden",
