@@ -21,8 +21,6 @@ before_install:
 
 install: yarn --frozen-lockfile
 
-script: yarn test
-
 before_deploy:
   - npm config set _auth $ARTIFACTORY_API_KEY
   - npm config set email $ARTIFACTORY_EMAIL
