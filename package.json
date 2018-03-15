@@ -1,8 +1,8 @@
 {
   "name": "@zendesk/garden-stylelint-config",
   "description": "Garden stylelint config",
-  "author": "Zendesk Garden <garden@zendesk.com>",
   "license": "Apache-2.0",
+  "author": "Zendesk Garden <garden@zendesk.com>",
   "repository": "https://github.com/zendeskgarden/stylelint-config",
   "bugs": {
     "url": "https://github.com/zendeskgarden/stylelint-config/issues"
