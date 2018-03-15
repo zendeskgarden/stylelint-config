@@ -1,5 +1,5 @@
 {
-  "name": "@zendesk/garden-stylelint-config",
+  "name": "@zendeskgarden/stylelint-config",
   "description": "Garden stylelint config",
   "license": "Apache-2.0",
   "author": "Zendesk Garden <garden@zendesk.com>",
@@ -42,7 +42,7 @@
     "zendesk"
   ],
   "publishConfig": {
-    "registry": "https://zdrepo.jfrog.io/zdrepo/api/npm/npm"
+    "access": "public"
   },
   "husky": {
     "hooks": {

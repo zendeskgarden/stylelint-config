@@ -8,7 +8,7 @@ config](http://stylelint.io/?%2Fdocs%2Fuser-guide%2Fconfiguration.md).
 ## Installation
 
 ```sh
-npm install --save-dev stylelint stylelint-order @zendesk/garden-stylelint-config
+npm install --save-dev stylelint stylelint-order @zendeskgarden/stylelint-config
 ```
 
 See [package registry
@@ -21,7 +21,7 @@ Add a `.stylelintrc` to your project with an `extends` property like this:
 
 ```js
 {
-  "extends": "@zendesk/garden-stylelint-config"
+  "extends": "@zendeskgarden/stylelint-config"
 }
 ```
 
