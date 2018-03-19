@@ -1,8 +1,8 @@
 {
-  "name": "@zendesk/garden-stylelint-config",
+  "name": "@zendeskgarden/stylelint-config",
   "description": "Garden stylelint config",
-  "author": "Zendesk Garden <garden@zendesk.com>",
   "license": "Apache-2.0",
+  "author": "Zendesk Garden <garden@zendesk.com>",
   "repository": "https://github.com/zendeskgarden/stylelint-config",
   "bugs": {
     "url": "https://github.com/zendeskgarden/stylelint-config/issues"
@@ -26,13 +26,14 @@
     "stylelint-order": "^0.8.x"
   },
   "devDependencies": {
-    "@zendesk/eslint-config-garden": "^4.1.0",
+    "@zendeskgarden/eslint-config": "^5.0.1",
     "babel-eslint": "^8.2.2",
-    "eslint": "^4.18.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-notice": "^0.6.6",
     "husky": "^0.15.0-rc.8",
-    "prettier-package-json": "^1.4.0",
+    "prettier-package-json": "^1.5.1",
     "standard-version": "^4.3.0",
-    "stylelint": "^9.1.0",
+    "stylelint": "^9.1.3",
     "stylelint-order": "^0.8.1"
   },
   "keywords": [
@@ -41,13 +42,13 @@
     "zendesk"
   ],
   "publishConfig": {
-    "registry": "https://zdrepo.jfrog.io/zdrepo/api/npm/npm"
+    "access": "public"
   },
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint && yarn format",
-      "post-checkout": "if [[ $GIT_PARAMS == *1 ]]; then yarn --pure-lockfile; fi",
-      "post-merge": "yarn --pure-lockfile"
+      "post-checkout": "if [[ $GIT_PARAMS == *1 ]]; then yarn --ignore-scripts --pure-lockfile; fi",
+      "post-merge": "yarn --ignore-scripts --pure-lockfile"
     }
   }
 }

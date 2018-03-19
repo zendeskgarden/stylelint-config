@@ -1,4 +1,4 @@
-# Garden stylelint Config [![Build Status](https://travis-ci.com/zendeskgarden/stylelint-config.svg?token=dDt9s6smCMgz269xNbpz&branch=master)](https://travis-ci.com/zendeskgarden/stylelint-config)
+# Garden stylelint Config [![npm version](https://img.shields.io/npm/v/@zendeskgarden/stylelint-config.svg)](https://www.npmjs.com/package/@zendeskgarden/stylelint-config) [![Build Status](https://travis-ci.com/zendeskgarden/stylelint-config.svg?token=dDt9s6smCMgz269xNbpz&branch=master)](https://travis-ci.com/zendeskgarden/stylelint-config)
 
 > :seedling: Garden is a design system for Zendesk
 
@@ -8,7 +8,7 @@ config](http://stylelint.io/?%2Fdocs%2Fuser-guide%2Fconfiguration.md).
 ## Installation
 
 ```sh
-npm install --save-dev stylelint stylelint-order @zendesk/garden-stylelint-config
+npm install --save-dev stylelint stylelint-order @zendeskgarden/stylelint-config
 ```
 
 See [package registry
@@ -21,7 +21,7 @@ Add a `.stylelintrc` to your project with an `extends` property like this:
 
 ```js
 {
-  "extends": "@zendesk/garden-stylelint-config"
+  "extends": "@zendeskgarden/stylelint-config"
 }
 ```
 
@@ -38,12 +38,11 @@ Got issues with what you find here? Please feel free to create an
 [issue](https://github.com/zendeskgarden/stylelint-config/issues/new).
 
 If you'd like to take a crack at making some changes, please follow our
-[contributing](https://github.com/zendeskgarden/stylelint-config/blob/master/.github/CONTRIBUTING.md)
-documentation for details needed to submit a PR.
+[contributing](.github/CONTRIBUTING.md) documentation for details needed
+to submit a PR.
 
 Community behavior is benevolently ruled by a [code of
-conduct](https://github.com/zendeskgarden/stylelint-config/blob/master/.github/CODE_OF_CONDUCT.md).
-Please participate accordingly.
+conduct](.github/CODE_OF_CONDUCT.md). Please participate accordingly.
 
 ## License
 
