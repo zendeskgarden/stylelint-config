@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v7.0.0...v8.0.0) (2018-03-19)
+
+
+### Features
+
+* prepare for [@zendeskgarden](https://github.com/zendeskgarden) npm publish ([#13](https://github.com/zendeskgarden/stylelint-config/issues/13)) ([caaaaac](https://github.com/zendeskgarden/stylelint-config/commit/caaaaac))
+
+
+### BREAKING CHANGES
+
+* package location has moved to the npm registry under `@zendeskgarden/stylelint-config`. See the README for installation/upgrade details.
+
+
+
 <a name="7.0.0"></a>
 # [7.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v6.0.0...v7.0.0) (2018-02-21)
 
