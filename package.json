@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/zendeskgarden/stylelint-config/issues"
   },
-  "version": "8.0.0",
+  "version": "8.0.1",
   "main": "index.js",
   "files": [
     "plugins",
