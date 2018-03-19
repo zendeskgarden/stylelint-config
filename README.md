@@ -11,10 +11,6 @@ config](http://stylelint.io/?%2Fdocs%2Fuser-guide%2Fconfiguration.md).
 npm install --save-dev stylelint stylelint-order @zendeskgarden/stylelint-config
 ```
 
-See [package registry
-documentation](https://github.com/zendeskgarden/LANDSCAPE/wiki/Package-Registry)
-for the configuration needed to install `@zendesk`-scoped packages.
-
 ## Usage
 
 Add a `.stylelintrc` to your project with an `extends` property like this:
