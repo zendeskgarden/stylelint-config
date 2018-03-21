@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.2"></a>
+## [8.0.2](https://github.com/zendeskgarden/stylelint-config/compare/v8.0.1...v8.0.2) (2018-03-21)
+
+
+### Bug Fixes
+
+* improve package metadata ([#15](https://github.com/zendeskgarden/stylelint-config/issues/15)) ([e89d482](https://github.com/zendeskgarden/stylelint-config/commit/e89d482))
+
+
+
 <a name="8.0.1"></a>
 ## [8.0.1](https://github.com/zendeskgarden/stylelint-config/compare/v8.0.0...v8.0.1) (2018-03-19)
 
