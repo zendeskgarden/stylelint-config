@@ -32,7 +32,7 @@ module.exports = {
     // Limit the number of id selectors in a selector
     'selector-max-id': 0,
     // Limit the number of pseudo-classes in a selector
-    'selector-max-pseudo-class': 0,
+    'selector-max-pseudo-class': null,
     // Limit the specificity of selectors
     'selector-max-specificity': '0,3,1',
     // Limit the number of type in a selector
