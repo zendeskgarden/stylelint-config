@@ -24,6 +24,7 @@ module.exports = {
     './rules/possible-errors/general',
     './rules/limit-language-features/color',
     './rules/limit-language-features/function',
+    './rules/limit-language-features/keyframes',
     './rules/limit-language-features/number',
     './rules/limit-language-features/time',
     './rules/limit-language-features/unit',
