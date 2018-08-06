@@ -11,6 +11,8 @@ module.exports = {
     'media-feature-name-blacklist': null,
     // Disallow vendor prefixes for media feature names
     'media-feature-name-no-vendor-prefix': true,
+    // Specify a whitelist of allowed media feature name and value pairs
+    'media-feature-name-value-whitelist': null,
     // Specify a whitelist of allowed media feature names
     'media-feature-name-whitelist': null
   }
