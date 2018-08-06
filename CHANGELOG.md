@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v8.1.1...v9.0.0) (2018-08-06)
+
+
+### Features
+
+* upgrade to support stylelint 9.4.x ([#19](https://github.com/zendeskgarden/stylelint-config/issues/19)) ([f898410](https://github.com/zendeskgarden/stylelint-config/commit/f898410))
+
+
+### BREAKING CHANGES
+
+* existing CSS linting will fail if:
+* keyframe names don't start with `zd-`.
+* non-Unix linebreaks are used.
+
+
+
 <a name="8.1.1"></a>
 ## [8.1.1](https://github.com/zendeskgarden/stylelint-config/compare/v8.1.0...v8.1.1) (2018-06-12)
 
