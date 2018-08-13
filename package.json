@@ -24,7 +24,7 @@
   },
   "peerDependencies": {
     "stylelint": "^9.4.x",
-    "stylelint-order": "^1.0.0"
+    "stylelint-order": "^1.x"
   },
   "devDependencies": {
     "@zendeskgarden/eslint-config": "7.0.1",
