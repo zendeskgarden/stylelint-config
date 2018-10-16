@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.0.6"></a>
+## [9.0.6](https://github.com/zendeskgarden/stylelint-config/compare/v9.0.5...v9.0.6) (2018-10-16)
+
+
+### Bug Fixes
+
+* update peerDependencies with stylelint 9.6.x ([#44](https://github.com/zendeskgarden/stylelint-config/issues/44)) ([191b8d2](https://github.com/zendeskgarden/stylelint-config/commit/191b8d2))
+
+
+
 <a name="9.0.5"></a>
 ## [9.0.5](https://github.com/zendeskgarden/stylelint-config/compare/v9.0.4...v9.0.5) (2018-09-04)
 
