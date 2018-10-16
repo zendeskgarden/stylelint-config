@@ -17,6 +17,8 @@ module.exports = {
     'max-line-length': [80, {
       ignorePattern: ['/--zd-.+/']
     }],
+    // Disallow empty first lines
+    'no-empty-first-line': true,
     // Disallow end-of-line whitespace
     'no-eol-whitespace': true,
     // Disallow missing end-of-source newline
