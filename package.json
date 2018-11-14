@@ -27,9 +27,9 @@
     "stylelint-order": "^1.x"
   },
   "devDependencies": {
-    "@zendeskgarden/eslint-config": "7.0.8",
+    "@zendeskgarden/eslint-config": "7.0.9",
     "babel-eslint": "10.0.1",
-    "eslint": "5.8.0",
+    "eslint": "5.9.0",
     "eslint-plugin-notice": "0.7.7",
     "husky": "1.1.4",
     "prettier-package-json": "2.0.1",
