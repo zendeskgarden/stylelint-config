@@ -34,7 +34,7 @@
     "husky": "1.1.4",
     "prettier-package-json": "2.0.1",
     "standard-version": "4.4.0",
-    "stylelint": "9.7.1",
+    "stylelint": "9.8.0",
     "stylelint-order": "1.0.0"
   },
   "keywords": [
