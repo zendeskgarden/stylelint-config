@@ -27,7 +27,7 @@
     "stylelint-order": "^2.x"
   },
   "devDependencies": {
-    "@zendeskgarden/eslint-config": "7.0.10",
+    "@zendeskgarden/eslint-config": "7.1.0",
     "babel-eslint": "10.0.1",
     "eslint": "5.12.0",
     "eslint-plugin-notice": "0.7.7",
@@ -44,12 +44,5 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint && yarn format",
-      "post-checkout": "if [[ $GIT_PARAMS == *1 ]]; then yarn --ignore-scripts --pure-lockfile; fi",
-      "post-merge": "yarn --ignore-scripts --pure-lockfile"
-    }
   }
 }
