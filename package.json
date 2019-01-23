@@ -23,7 +23,7 @@
     "test": "yarn lint && yarn format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^9.9.x",
+    "stylelint": "^9.10.x",
     "stylelint-order": "^2.x"
   },
   "devDependencies": {
