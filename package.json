@@ -35,7 +35,7 @@
     "prettier-package-json": "2.1.0",
     "standard-version": "5.0.1",
     "stylelint": "9.10.1",
-    "stylelint-order": "2.0.0"
+    "stylelint-order": "2.1.0"
   },
   "keywords": [
     "garden",
