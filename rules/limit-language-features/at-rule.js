@@ -11,6 +11,8 @@ module.exports = {
     'at-rule-blacklist': null,
     // Disallow vendor prefixes for @rules
     'at-rule-no-vendor-prefix': true,
+    // Specify a requirelist of properties for an at-rule
+    'at-rule-property-requirelist': null,
     // Specify a whitelist of allowed at-rules
     'at-rule-whitelist': null
   }
