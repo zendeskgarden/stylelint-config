@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [9.2.0](https://github.com/zendeskgarden/stylelint-config/compare/v9.1.0...v9.2.0) (2019-04-16)
+
+
+### Features
+
+* update dependency stylelint to v10 ([#78](https://github.com/zendeskgarden/stylelint-config/issues/78)) ([f32c0c4](https://github.com/zendeskgarden/stylelint-config/commit/f32c0c4))
+
+
+
 <a name="9.1.0"></a>
 # [9.1.0](https://github.com/zendeskgarden/stylelint-config/compare/v9.0.9...v9.1.0) (2019-01-23)
 
