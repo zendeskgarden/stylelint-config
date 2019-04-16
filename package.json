@@ -23,8 +23,8 @@
     "test": "yarn lint && yarn format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^10.0.x",
-    "stylelint-order": "^2.x"
+    "stylelint": "^10.0.0",
+    "stylelint-order": "^2.0"
   },
   "devDependencies": {
     "@zendeskgarden/eslint-config": "7.2.1",
