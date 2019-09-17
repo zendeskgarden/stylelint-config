@@ -22,6 +22,8 @@ module.exports = {
     // Disallow end-of-line whitespace
     'no-eol-whitespace': true,
     // Disallow missing end-of-source newline
-    'no-missing-end-of-source-newline': true
+    'no-missing-end-of-source-newline': true,
+    // Require or disallow Unicode BOM
+    'unicode-bom': 'never'
   }
 };
