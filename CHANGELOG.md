@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [11.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v10.0.0...v11.0.0) (2019-09-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** add new `unicode-bom` rule which requires stylelint v11.
+
+* **deps:** update dependency stylelint to v11 ([#113](https://github.com/zendeskgarden/stylelint-config/issues/113)) ([76633d5](https://github.com/zendeskgarden/stylelint-config/commit/76633d5))
 
 # [10.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v9.2.0...v10.0.0) (2019-04-23)
 
