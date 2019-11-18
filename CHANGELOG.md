@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [12.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v11.0.0...v12.0.0) (2019-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** stylelint v12 peer dependency
+
+* **deps:** update dependency stylelint to v12 ([#121](https://github.com/zendeskgarden/stylelint-config/issues/121)) ([2a89213](https://github.com/zendeskgarden/stylelint-config/commit/2a892131f478b33189124d6df6b52c9fdcb64a26))
+
 ## [11.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v10.0.0...v11.0.0) (2019-09-17)
 
 
