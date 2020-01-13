@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [12.0.1](https://github.com/zendeskgarden/stylelint-config/compare/v12.0.0...v12.0.1) (2020-01-13)
+
 ## [12.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v11.0.0...v12.0.0) (2019-11-18)
 
 
