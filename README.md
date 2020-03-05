@@ -1,4 +1,11 @@
-# Garden stylelint Config [![npm version](https://img.shields.io/npm/v/@zendeskgarden/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package/@zendeskgarden/stylelint-config) [![Build Status](https://img.shields.io/travis/zendeskgarden/stylelint-config/master.svg?style=flat-square)](https://travis-ci.org/zendeskgarden/stylelint-config) [![Dependency Status](https://img.shields.io/david/dev/zendeskgarden/stylelint-config.svg?style=flat-square)](https://david-dm.org/zendeskgarden/stylelint-config?type=dev)
+# Garden stylelint Config [![npm version][npm version badge]][npm version link] [![Build Status][build status badge]][build status link] [![Dependency Status][dependency status badge]][dependency status link]
+
+[npm version badge]: https://flat.badgen.net/npm/v/@zendeskgarden/stylelint-config
+[npm version link]: https://www.npmjs.com/package/@zendeskgarden/stylelint-config
+[build status badge]: https://flat.badgen.net/circleci/github/zendeskgarden/stylelint-config/master?label=build
+[build status link]: https://circleci.com/gh/zendeskgarden/stylelint-config/tree/master
+[dependency status badge]: https://flat.badgen.net/david/dev/zendeskgarden/stylelint-config?label=dependencies
+[dependency status link]: https://david-dm.org/zendeskgarden/stylelint-config?type=dev
 
 > :seedling: Garden is a design system for Zendesk
 
