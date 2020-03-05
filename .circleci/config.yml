@@ -45,11 +45,11 @@ workflows:
   main:
     jobs:
       - build:
-          *filters_tags
+          <<: *filters_tags
       - test:
           requires:
             - build
-          *filters_tags
+          <<: *filters_tags
       - publish:
           requires:
             - test
