@@ -1,0 +1,55 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+
+jobs:
+  build:
+    executor: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          cache-key: yarn.lock
+          dir: ~/.cache/yarn
+          steps:
+            - run: yarn --frozen-lockfile
+      - persist_to_workspace:
+          root: ~/project
+          paths: .
+
+  test:
+    executor: node/default
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run: yarn test
+
+  publish:
+    executor: node/default
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+      - run: npm publish
+
+workflows:
+  main:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /.*/
+      - test:
+          requires:
+            - build
+          filters:
+            tags:
+              only: /.*/
+      - publish:
+          requires:
+            - test
+          context: maintainer
+          filters:
+            tags:
+              only: /^v\d+\.\d+\.\d+(-\S*)?$/
+            branches:
+              ignore: /.*/
