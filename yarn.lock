@@ -314,10 +314,10 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
   integrity sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
 
-"@zendeskgarden/eslint-config@11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@zendeskgarden/eslint-config/-/eslint-config-11.0.3.tgz#838440a42960e5bd668f4d23a6fc3b055810ae76"
-  integrity sha512-WKaqZ/6qLs+ALDsXW/jKsWLkC9rz5Bc/Fj6RSOncEglWSmRZEseVekB+Fi7ktr6XW/gKwhbm+qe57I0mrcuCeg==
+"@zendeskgarden/eslint-config@11.0.4":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@zendeskgarden/eslint-config/-/eslint-config-11.0.4.tgz#771515025526a1b898629b2cca2219bcda56d0f9"
+  integrity sha512-19gAst+jXlZ9PiURd4ZGT1TVoYKrNIGbZpZkBjyGQIfSLLo2ech+mFS/S6Njx+EaaKKbacxoa8ZszxsJLK3onw==
 
 JSONStream@^1.0.4:
   version "1.3.2"
