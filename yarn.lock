@@ -1116,10 +1116,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-notice@0.8.9:
-  version "0.8.9"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-notice/-/eslint-plugin-notice-0.8.9.tgz#b3b55ba218b36a01fd4de998f68c66a8bf238a82"
-  integrity sha512-Z6xit9Yv7pCG/rS3DohSou1BeDffPOhmuQzE7UWMxV2h/MJmsOq3QZFyXmbi18cExlyWbz4+ztAogi2edeTbjA==
+eslint-plugin-notice@0.8.10:
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-notice/-/eslint-plugin-notice-0.8.10.tgz#a9307cf42ab38c4e548e45197d4f98aaeea6b15b"
+  integrity sha512-vtUZ3FMt+SJ/2THV6mgtYS3a5Xe0EiASnSY948Z53uOhpUFYCVNyTIOSd1zDGWYe0J4L1shZevMlgPlkYJ34vw==
   dependencies:
     find-root "^1.1.0"
     lodash "^4.17.15"
@@ -3319,10 +3319,10 @@ stylelint-order@4.0.0:
     postcss "^7.0.26"
     postcss-sorting "^5.0.1"
 
-stylelint@13.3.2:
-  version "13.3.2"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.3.2.tgz#fbcb69a2452bc35de3eedd95b443449f92ab4107"
-  integrity sha512-kpO3/Gz2ZY40EWUwFYYkgpzhf8ZDUyKpcui5+pS0XKJBj/EMYmZpOJoL8IFAz2yApYeg91NVy5yAjE39hDzWvQ==
+stylelint@13.3.3:
+  version "13.3.3"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.3.3.tgz#e267a628ebfc1adad6f5a1fe818724c34171402b"
+  integrity sha512-j8Oio2T1YNiJc6iXDaPYd74Jg4zOa1bByNm/g9/Nvnq4tDPsIjMi46jhRZyPPktGPwjJ5FwcmCqIRlH6PVP8mA==
   dependencies:
     "@stylelint/postcss-css-in-js" "^0.37.1"
     "@stylelint/postcss-markdown" "^0.36.1"
