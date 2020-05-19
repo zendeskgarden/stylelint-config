@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Specify modern or legacy notation for applicable color-functions
+    'color-function-notation': 'modern',
     // Require (where possible) or disallow named colors
     'color-named': 'never',
     // Disallow hex colors
