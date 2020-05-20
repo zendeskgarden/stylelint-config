@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [13.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v12.0.1...v13.0.0) (2020-05-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update dependency stylelint to v13.5.0 (#151)
+
+### Bug Fixes
+
+* use default CircleCI node_modules cache ([#139](https://github.com/zendeskgarden/stylelint-config/issues/139)) ([5d31027](https://github.com/zendeskgarden/stylelint-config/commit/5d31027114749c094037115f3f919bfb863413c0))
+
+
+* **deps:** update dependency stylelint to v13.5.0 ([#151](https://github.com/zendeskgarden/stylelint-config/issues/151)) ([07e9921](https://github.com/zendeskgarden/stylelint-config/commit/07e9921f187c9e9d89811e244b410eabcee4f20e))
+
 ### [12.0.1](https://github.com/zendeskgarden/stylelint-config/compare/v12.0.0...v12.0.1) (2020-01-13)
 
 ## [12.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v11.0.0...v12.0.0) (2019-11-18)
