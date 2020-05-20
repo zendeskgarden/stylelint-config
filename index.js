@@ -22,6 +22,8 @@ module.exports = {
     './rules/possible-errors/at-rule',
     './rules/possible-errors/comment',
     './rules/possible-errors/general',
+    './rules/limit-language-features/alpha-value',
+    './rules/limit-language-features/hue',
     './rules/limit-language-features/color',
     './rules/limit-language-features/function',
     './rules/limit-language-features/keyframes',
