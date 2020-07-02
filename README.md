@@ -2,8 +2,8 @@
 
 [npm version badge]: https://flat.badgen.net/npm/v/@zendeskgarden/stylelint-config
 [npm version link]: https://www.npmjs.com/package/@zendeskgarden/stylelint-config
-[build status badge]: https://flat.badgen.net/circleci/github/zendeskgarden/stylelint-config/master?label=build
-[build status link]: https://circleci.com/gh/zendeskgarden/stylelint-config/tree/master
+[build status badge]: https://flat.badgen.net/circleci/github/zendeskgarden/stylelint-config/main?label=build
+[build status link]: https://circleci.com/gh/zendeskgarden/stylelint-config/tree/main
 [dependency status badge]: https://flat.badgen.net/david/dev/zendeskgarden/stylelint-config?label=dependencies
 [dependency status link]: https://david-dm.org/zendeskgarden/stylelint-config?type=dev
 
