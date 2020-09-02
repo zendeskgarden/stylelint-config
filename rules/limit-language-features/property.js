@@ -7,11 +7,11 @@
 
 module.exports = {
   rules: {
-    // Specify a blacklist of disallowed properties
-    'property-blacklist': null,
+    // Specify a list of disallowed properties
+    'property-disallowed-list': null,
     // Disallow vendor prefixes for properties
     'property-no-vendor-prefix': true,
-    // Specify a whitelist of allowed properties
-    'property-whitelist': null
+    // Specify a list of allowed properties
+    'property-allowed-list': null
   }
 };

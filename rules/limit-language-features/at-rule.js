@@ -7,13 +7,13 @@
 
 module.exports = {
   rules: {
-    // Specify a blacklist of disallowed at-rules
-    'at-rule-blacklist': null,
+    // Specify a list of disallowed at-rules
+    'at-rule-disallowed-list': null,
     // Disallow vendor prefixes for @rules
     'at-rule-no-vendor-prefix': true,
-    // Specify a requirelist of properties for an at-rule
-    'at-rule-property-requirelist': null,
-    // Specify a whitelist of allowed at-rules
-    'at-rule-whitelist': null
+    // Specify a required list of properties for an at-rule
+    'at-rule-property-required-list': null,
+    // Specify a list of allowed at-rules
+    'at-rule-allowed-list': null
   }
 };
