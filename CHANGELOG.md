@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v13.0.0...v14.0.0) (2020-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** deprecated `*-blacklist`, `*-requirelist` and `*-whitelist` rules in favor of the new `*-disallowed-list`, `*-required-list` and `*-allowed-list` ones
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: hzhu <hz@henryzhu.me>
+Co-authored-by: Jonathan Zempel <jzempel@gmail.com>
+
+* **deps:** update all non-major dependencies ([#171](https://github.com/zendeskgarden/stylelint-config/issues/171)) ([588d362](https://github.com/zendeskgarden/stylelint-config/commit/588d362e590ef6a361cb692033c387a69e89a2b0))
+
 ## [13.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v12.0.1...v13.0.0) (2020-05-20)
 
 
