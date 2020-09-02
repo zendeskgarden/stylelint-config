@@ -7,9 +7,9 @@
 
 module.exports = {
   rules: {
-    // Specify a blacklist of disallowed units
-    'unit-blacklist': null,
-    // Specify a whitelist of allowed units
-    'unit-whitelist': null
+    // Specify a list of disallowed units
+    'unit-disallowed-list': null,
+    // Specify a list of allowed units
+    'unit-allowed-list': null
   }
 };

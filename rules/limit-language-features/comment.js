@@ -7,7 +7,7 @@
 
 module.exports = {
   rules: {
-    // Specify a blacklist of disallowed words within comments
-    'comment-word-blacklist': null
+    // Specify a list of disallowed words within comments
+    'comment-word-disallowed-list': null
   }
 };

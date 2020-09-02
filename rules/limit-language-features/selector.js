@@ -7,16 +7,16 @@
 
 module.exports = {
   rules: {
-    // Specify a blacklist of disallowed attribute operators
-    'selector-attribute-operator-blacklist': null,
-    // Specify a whitelist of allowed attribute operators
-    'selector-attribute-operator-whitelist': null,
+    // Specify a list of disallowed attribute operators
+    'selector-attribute-operator-disallowed-list': null,
+    // Specify a list of allowed attribute operators
+    'selector-attribute-operator-allowed-list': null,
     // Specify a pattern for class selectors
     'selector-class-pattern': null,
-    // Specify a blacklist of disallowed combinators
-    'selector-combinator-blacklist': null,
-    // Specify a whitelist of allowed combinators
-    'selector-combinator-whitelist': null,
+    // Specify a list of disallowed combinators
+    'selector-combinator-disallowed-list': null,
+    // Specify a list of allowed combinators
+    'selector-combinator-allowed-list': null,
     // Specify a pattern for id selectors
     'selector-id-pattern': null,
     // Limit the number of attribute selectors in a selector
@@ -45,13 +45,13 @@ module.exports = {
     'selector-no-qualifying-type': [true, { ignore: 'class' }],
     // Disallow vendor prefixes for selectors
     'selector-no-vendor-prefix': true,
-    // Specify a blacklist of disallowed pseudo-class selectors
-    'selector-pseudo-class-blacklist': null,
-    // Specify a whitelist of allowed pseudo-class selectors
-    'selector-pseudo-class-whitelist': null,
-    // Specify a blacklist of disallowed pseudo-element selectors
-    'selector-pseudo-element-blacklist': null,
-    // Specify a whitelist of allowed pseudo-element selectors
-    'selector-pseudo-element-whitelist': null
+    // Specify a list of disallowed pseudo-class selectors
+    'selector-pseudo-class-disallowed-list': null,
+    // Specify a list of allowed pseudo-class selectors
+    'selector-pseudo-class-allowed-list': null,
+    // Specify a list of disallowed pseudo-element selectors
+    'selector-pseudo-element-disallowed-list': null,
+    // Specify a list of allowed pseudo-element selectors
+    'selector-pseudo-element-allowed-list': null
   }
 };
