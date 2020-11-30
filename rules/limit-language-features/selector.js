@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Specify a list of disallowed attribute names
+    'selector-attribute-name-disallowed-list': null,
     // Specify a list of disallowed attribute operators
     'selector-attribute-operator-disallowed-list': null,
     // Specify a list of allowed attribute operators
