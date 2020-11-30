@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Specify a pattern for comments
+    'comment-pattern': null,
     // Specify a list of disallowed words within comments
     'comment-word-disallowed-list': null
   }
