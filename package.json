@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "format": "prettier-package-json --write",
+    "postinstall": "husky install",
     "lint": "yarn lint:css && yarn lint:js",
     "lint:css": "echo 'a { all: unset; }' | stylelint --config index.js",
     "lint:js": "eslint index.js plugins/*.js rules/**/*.js",
@@ -32,7 +33,7 @@
     "eslint": "7.19.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-notice": "0.9.10",
-    "husky": "4.3.8",
+    "husky": "5.0.9",
     "prettier-package-json": "2.1.3",
     "standard-version": "9.1.0",
     "stylelint": "13.9.0",
