@@ -24,7 +24,7 @@
     "test": "yarn lint && yarn format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^13.8.0",
+    "stylelint": "^13.12.0",
     "stylelint-order": "^4.0.0"
   },
   "devDependencies": {
