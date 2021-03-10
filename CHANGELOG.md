@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [16.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v15.0.0...v16.0.0) (2021-03-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** stylelint v13.12.0 peer dependency
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Jonathan Zempel <jzempel@gmail.com>
+
+* **deps:** update all non-major dependencies ([#191](https://github.com/zendeskgarden/stylelint-config/issues/191)) ([d11a027](https://github.com/zendeskgarden/stylelint-config/commit/d11a027f591bafb2e56db830cbb16021f521bcfa))
+
 ## [15.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v14.0.0...v15.0.0) (2020-11-30)
 
 ## [14.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v13.0.0...v14.0.0) (2020-09-02)
