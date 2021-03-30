@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [16.0.1](https://github.com/zendeskgarden/stylelint-config/compare/v16.0.0...v16.0.1) (2021-03-30)
+
+
+### Bug Fixes
+
+* prevent husky from running on postinstall ([#193](https://github.com/zendeskgarden/stylelint-config/issues/193)) ([a5e794d](https://github.com/zendeskgarden/stylelint-config/commit/a5e794d7fea5e8c5cc6b304fc3acfb7a3bcd163d))
+
 ## [16.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v15.0.0...v16.0.0) (2021-03-10)
 
 
