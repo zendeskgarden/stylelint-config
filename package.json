@@ -28,7 +28,7 @@
     "stylelint-order": "^4.0.0"
   },
   "devDependencies": {
-    "@zendeskgarden/eslint-config": "19.0.0",
+    "@zendeskgarden/eslint-config": "20.0.0",
     "babel-eslint": "10.1.0",
     "eslint": "7.24.0",
     "eslint-plugin-node": "11.1.0",
