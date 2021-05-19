@@ -1,5 +1,6 @@
 {
   "name": "@zendeskgarden/stylelint-config",
+  "version": "16.0.1",
   "description": "Garden stylelint config",
   "license": "Apache-2.0",
   "author": "Zendesk Garden <garden@zendesk.com>",
@@ -8,7 +9,6 @@
   "bugs": {
     "url": "https://github.com/zendeskgarden/stylelint-config/issues"
   },
-  "version": "16.0.1",
   "main": "index.js",
   "files": [
     "plugins",
