@@ -9,6 +9,8 @@ module.exports = {
   rules: {
     // Specify modern or legacy notation for applicable color-functions
     'color-function-notation': 'modern',
+    // Require or disallow alpha channel for hex colors
+    'color-hex-alpha': null,
     // Require (where possible) or disallow named colors
     'color-named': 'never',
     // Disallow hex colors
