@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [17.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v16.0.1...v17.0.0) (2021-11-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update to stylelint v14.0.0 and stylelint-order v5.0.0
+
+- Add `color-hex-alpha`
+- Add `custom-property-no-missing-var-function`
+- Remove `function-calc-no-invalid`
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Jonathan Zempel <jzempel@gmail.com>
+
+* **deps:** update dependency stylelint to v14 ([#221](https://github.com/zendeskgarden/stylelint-config/issues/221)) ([65b1a7a](https://github.com/zendeskgarden/stylelint-config/commit/65b1a7a056ffd7374a47f4939cb86523ff7683d2))
+
 ### [16.0.1](https://github.com/zendeskgarden/stylelint-config/compare/v16.0.0...v16.0.1) (2021-03-30)
 
 
