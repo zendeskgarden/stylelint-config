@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v17.0.0...v18.0.0) (2022-03-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update to eslint v8.10.0 and stylelint v14.5.3
+
+- Added `function-no-unknown` rule
+- Added `font-family-name-quotes` rule
+
+* **deps:** update all non-major dependencies ([#232](https://github.com/zendeskgarden/stylelint-config/issues/232)) ([7038f49](https://github.com/zendeskgarden/stylelint-config/commit/7038f4934eb632e56b2a8ea852bac84ba5acef92))
+
 ## [17.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v16.0.1...v17.0.0) (2021-11-05)
 
 
