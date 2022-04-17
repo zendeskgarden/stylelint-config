@@ -28,16 +28,16 @@
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.17.5",
+    "@babel/core": "7.17.9",
     "@babel/eslint-parser": "7.17.0",
     "@zendeskgarden/eslint-config": "27.0.1",
-    "eslint": "8.10.0",
+    "eslint": "8.13.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-notice": "0.9.10",
     "husky": "7.0.4",
     "prettier-package-json": "2.6.3",
     "standard-version": "9.3.2",
-    "stylelint": "14.5.3",
+    "stylelint": "14.7.1",
     "stylelint-order": "5.0.0"
   },
   "keywords": [
