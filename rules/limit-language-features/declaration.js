@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Limit the number of values for a list of properties within declarations
+    'declaration-property-max-values': null,
     // Disallow `!important` within declarations
     'declaration-no-important': true,
     // Specify a list of disallowed property and unit pairs within declarations
