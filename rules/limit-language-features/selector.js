@@ -48,7 +48,7 @@ module.exports = {
     // Disallow vendor prefixes for selectors
     'selector-no-vendor-prefix': true,
     // Specify simple or complex notation for :not() pseudo-classes (Autofixable)
-    'selector-not-notation': true,
+    'selector-not-notation': ['simple'],
     // Specify a list of disallowed pseudo-class selectors
     'selector-pseudo-class-disallowed-list': null,
     // Specify a list of allowed pseudo-class selectors
