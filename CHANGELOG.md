@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [19.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v18.0.0...v19.0.0) (2022-04-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **stylelint:** add declaration-property-max-values and selector-not-notation rules
+
+- Add `declaration-property-max-values`
+- Add `selector-not-notation`
+
+### Features
+
+* **stylelint:** add declaration-property-max-values and selector-not-notation rules ([7a4626a](https://github.com/zendeskgarden/stylelint-config/commit/7a4626a190a7b66c9ec91a435449976f053654fa))
+
 ## [18.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v17.0.0...v18.0.0) (2022-03-04)
 
 
