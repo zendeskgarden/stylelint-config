@@ -13,8 +13,6 @@ module.exports = {
     'no-duplicate-selectors': true,
     // Disallow empty sources
     'no-empty-source': true,
-    // Disallow extra semicolons
-    'no-extra-semicolons': true,
     // Disallow double-slash comments (`//...`) which are not supported by CSS
     'no-invalid-double-slash-comments': true,
     // Disallow animation names that do not correspond to a `@keyframes` declaration
