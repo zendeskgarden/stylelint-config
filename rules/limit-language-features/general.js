@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Specify string or URL notation for `@import` rules
+    'import-notation': 'string',
     // Limit the depth of nesting
     'max-nesting-depth': 2
   }

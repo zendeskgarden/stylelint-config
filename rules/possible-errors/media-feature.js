@@ -8,6 +8,8 @@
 module.exports = {
   rules: {
     // Disallow unknown media feature names
-    'media-feature-name-no-unknown': true
+    'media-feature-name-no-unknown': true,
+    // Disallow unknown values for media features
+    'media-feature-name-value-no-unknown': true
   }
 };

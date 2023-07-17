@@ -29,8 +29,6 @@ module.exports = {
     'selector-max-combinators': null,
     // Limit the number of compound selectors in a selector
     'selector-max-compound-selectors': 3,
-    // Limit the number of adjacent empty lines within selectors
-    'selector-max-empty-lines': 0,
     // Limit the number of id selectors in a selector
     'selector-max-id': 0,
     // Limit the number of pseudo-classes in a selector
