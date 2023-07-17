@@ -8,6 +8,8 @@
 module.exports = {
   rules: {
     // Disallow missing `var` function for custom properties
-    'custom-property-no-missing-var-function': true
+    'custom-property-no-missing-var-function': true,
+    // Disallow unknown custom properties
+    'no-unknown-custom-properties': true
   }
 };

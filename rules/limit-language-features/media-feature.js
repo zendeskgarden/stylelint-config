@@ -14,6 +14,10 @@ module.exports = {
     // Specify a list of allowed media feature name and value pairs
     'media-feature-name-value-allowed-list': null,
     // Specify a list of allowed media feature names
-    'media-feature-name-allowed-list': null
+    'media-feature-name-allowed-list': null,
+    // Specify a list of allowed name and unit pairs within media features
+    'media-feature-name-unit-allowed-list': null,
+    // Specify context or prefix notation for media feature ranges
+    'media-feature-range-notation': 'context'
   }
 };
