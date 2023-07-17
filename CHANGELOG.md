@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [20.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v19.0.0...v20.0.0) (2023-07-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** requires `stylelint-order@^6.0.0` peer dependency
+* **deps:** remove deprecated rules.
+
+Added:
+- `import-notation`
+- `media-feature-name-allowed-list`
+- `media-feature-name-unit-allowed-list`
+- `media-feature-range-notation`
+- `no-unknown-custom-properties`
+- `annotation-no-unknown`
+- `declaration-property-value-no-unknown`
+- `keyframe-block-no-duplicate-selectors`
+- `keyframe-selector-notation`
+- `media-query-no-invalid`
+- `no-unknown-animations`
+- `selector-anb-no-unmatchable`
+- `media-feature-name-no-unknown`
+- `media-feature-name-value-no-unknown`
+
+* **deps:** update dependency stylelint to v15 ([#243](https://github.com/zendeskgarden/stylelint-config/issues/243)) ([fa45061](https://github.com/zendeskgarden/stylelint-config/commit/fa45061aba1b0cc368e7ddb4df1f2ecd216c5e0c))
+* **deps:** update dependency stylelint-order to v6 ([#244](https://github.com/zendeskgarden/stylelint-config/issues/244)) ([9e081b9](https://github.com/zendeskgarden/stylelint-config/commit/9e081b94c9245a16a0bb4e78d10f7c7491c51fcb))
+
 ## [19.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v18.0.0...v19.0.0) (2022-04-26)
 
 
