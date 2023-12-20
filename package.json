@@ -28,17 +28,17 @@
     "stylelint-order": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.23.0",
-    "@babel/eslint-parser": "7.22.15",
+    "@babel/core": "7.23.6",
+    "@babel/eslint-parser": "7.23.3",
     "@zendeskgarden/eslint-config": "35.0.0",
-    "eslint": "8.50.0",
+    "eslint": "8.56.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-notice": "0.9.10",
     "husky": "8.0.3",
     "prettier-package-json": "2.8.0",
     "standard-version": "9.5.0",
-    "stylelint": "15.10.3",
-    "stylelint-order": "6.0.3"
+    "stylelint": "15.11.0",
+    "stylelint-order": "6.0.4"
   },
   "keywords": [
     "garden",
