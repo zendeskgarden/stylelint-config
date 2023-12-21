@@ -4,5 +4,5 @@
   "schedule": [
     "on Wednesday every 12 weeks of the year starting on the 3rd week"
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"]
+  "postUpdateOptions": ["npmDedupe"]
 }
