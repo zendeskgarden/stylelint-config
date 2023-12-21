@@ -24,7 +24,7 @@
     "test": "yarn lint && yarn format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^15.0.0",
+    "stylelint": "^15.0.0 || ^16.0.0",
     "stylelint-order": "^6.0.0"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "husky": "8.0.3",
     "prettier-package-json": "2.8.0",
     "standard-version": "9.5.0",
-    "stylelint": "15.11.0",
+    "stylelint": "16.0.2",
     "stylelint-order": "6.0.4"
   },
   "keywords": [
