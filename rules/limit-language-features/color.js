@@ -14,6 +14,8 @@ module.exports = {
     // Require (where possible) or disallow named colors
     'color-named': 'never',
     // Disallow hex colors
-    'color-no-hex': null
+    'color-no-hex': null,
+    // Specify number or percentage notation for lightness
+    'lightness-notation': 'percentage'
   }
 };
