@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [21.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v20.0.0...v21.0.0) (2024-01-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** requires `stylelint-order@^6.1.0` peer dependency
+
+- add `lightness-notation` rule
+
+* **deps:** update all non-major dependencies ([#254](https://github.com/zendeskgarden/stylelint-config/issues/254)) ([4c521ef](https://github.com/zendeskgarden/stylelint-config/commit/4c521ef9c6308ade13cca4d46274c1a3c3022813))
+
 ## [20.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v19.0.0...v20.0.0) (2023-07-17)
 
 
