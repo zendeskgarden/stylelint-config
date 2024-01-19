@@ -28,7 +28,7 @@
     "stylelint-order": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.23.6",
+    "@babel/core": "7.23.7",
     "@babel/eslint-parser": "7.23.3",
     "@zendeskgarden/eslint-config": "35.0.0",
     "eslint": "8.56.0",
@@ -37,7 +37,7 @@
     "husky": "8.0.3",
     "prettier-package-json": "2.8.0",
     "standard-version": "9.5.0",
-    "stylelint": "16.0.2",
+    "stylelint": "16.2.0",
     "stylelint-order": "6.0.4"
   },
   "keywords": [
