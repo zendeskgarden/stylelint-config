@@ -19,7 +19,7 @@
     "lint": "npm run lint:css && npm run lint:js",
     "lint:css": "echo 'a { all: unset; }' | stylelint --config index.js",
     "lint:js": "eslint index.js plugins/*.js rules/**/*.js",
-    "prepare": "husky install",
+    "prepare": "husky",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
     "test": "npm run lint && npm run format && git diff --quiet"
   },
@@ -34,7 +34,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-notice": "0.9.10",
-    "husky": "8.0.3",
+    "husky": "9.0.11",
     "prettier-package-json": "2.8.0",
     "standard-version": "9.5.0",
     "stylelint": "16.2.1",
