@@ -19,7 +19,7 @@
     "lint": "npm run lint:css && npm run lint:js",
     "lint:css": "echo 'a { all: unset; }' | stylelint --config index.js",
     "lint:js": "eslint index.js plugins/*.js rules/**/*.js",
-    "prepare": "husky install",
+    "prepare": "husky",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
     "test": "npm run lint && npm run format && git diff --quiet"
   },
