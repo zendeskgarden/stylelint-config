@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/core": "7.24.4",
     "@babel/eslint-parser": "7.24.1",
-    "@zendeskgarden/eslint-config": "38.0.0",
+    "@zendeskgarden/eslint-config": "39.0.1",
     "eslint": "8.57.0",
     "eslint-plugin-n": "14.0.0",
     "eslint-plugin-notice": "0.9.10",
