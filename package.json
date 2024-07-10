@@ -18,7 +18,7 @@
     "format": "prettier-package-json --write",
     "lint": "npm run lint:css && npm run lint:js",
     "lint:css": "echo 'a { all: unset; }' | stylelint --config index.js",
-    "lint:js": "eslint index.js plugins/*.js rules/**/*.js",
+    "lint:js": "eslint --max-warnings 0",
     "prepare": "husky",
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && standard-version --no-verify",
     "test": "npm run lint && npm run format && git diff --quiet"
@@ -29,11 +29,9 @@
   },
   "devDependencies": {
     "@babel/core": "7.24.4",
-    "@babel/eslint-parser": "7.24.1",
     "@zendeskgarden/eslint-config": "42.0.0",
-    "eslint": "8.57.0",
-    "eslint-plugin-n": "14.0.0",
-    "eslint-plugin-notice": "0.9.10",
+    "eslint": "9.6.0",
+    "eslint-config-prettier": "9.1.0",
     "husky": "9.0.11",
     "prettier-package-json": "2.8.0",
     "standard-version": "9.5.0",
