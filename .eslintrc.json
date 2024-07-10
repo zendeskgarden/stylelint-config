@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "@zendeskgarden",
-    "@zendeskgarden/eslint-config/plugins/notice.js"
-  ],
-  "parserOptions": {
-    "requireConfigFile": false
-  }
-}

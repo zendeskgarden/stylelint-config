@@ -11,4 +11,3 @@ module.exports = {
     'alpha-value-notation': 'number'
   }
 };
-
