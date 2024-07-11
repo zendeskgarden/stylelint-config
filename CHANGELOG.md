@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [22.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v21.0.0...v22.0.0) (2024-07-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** rule alignment with stylelint 16.4.0 and configured to `reportNeedlessDisables`
+
+* **deps:** update all non-major dependencies ([#265](https://github.com/zendeskgarden/stylelint-config/issues/265)) ([2de6c97](https://github.com/zendeskgarden/stylelint-config/commit/2de6c97f0d22926d3d2aa22782b471ec17e52344))
+
 ## [21.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v20.0.0...v21.0.0) (2024-01-19)
 
 
