@@ -24,18 +24,18 @@
     "test": "npm run lint && npm run format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^16.1.0",
+    "stylelint": "^16.4.0",
     "stylelint-order": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.24.4",
+    "@babel/core": "7.24.7",
     "@zendeskgarden/eslint-config": "42.0.0",
     "eslint": "9.6.0",
     "eslint-config-prettier": "9.1.0",
     "husky": "9.0.11",
     "prettier-package-json": "2.8.0",
     "standard-version": "9.5.0",
-    "stylelint": "16.3.1",
+    "stylelint": "16.6.1",
     "stylelint-order": "6.0.4"
   },
   "keywords": [
