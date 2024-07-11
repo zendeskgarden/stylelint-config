@@ -24,7 +24,7 @@
     "test": "npm run lint && npm run format && git diff --quiet"
   },
   "peerDependencies": {
-    "stylelint": "^16.1.0",
+    "stylelint": "^16.4.0",
     "stylelint-order": "^6.0.0"
   },
   "devDependencies": {
