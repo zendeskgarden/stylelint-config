@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.25.2",
-    "@zendeskgarden/eslint-config": "42.0.0",
+    "@zendeskgarden/eslint-config": "44.0.1",
     "eslint": "9.11.1",
     "eslint-config-prettier": "9.1.0",
     "husky": "9.1.6",
