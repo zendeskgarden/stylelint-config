@@ -23,9 +23,11 @@
     "tag": "[ `git rev-parse --abbrev-ref HEAD` = 'main' ] && commit-and-tag-version --no-verify --npmPublishHint 'true'",
     "test": "npm run lint && npm run format && git diff --quiet"
   },
+  "dependencies": {
+    "stylelint-order": "7.0.0"
+  },
   "peerDependencies": {
-    "stylelint": "^16.4.0",
-    "stylelint-order": "^6.0.0"
+    "stylelint": "^16.25.0"
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
@@ -35,8 +37,7 @@
     "eslint-config-prettier": "10.1.8",
     "husky": "9.1.7",
     "prettier-package-json": "2.8.0",
-    "stylelint": "16.25.0",
-    "stylelint-order": "7.0.0"
+    "stylelint": "16.25.0"
   },
   "keywords": [
     "garden",
