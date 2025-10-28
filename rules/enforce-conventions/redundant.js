@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Disallow redundant nested style rules within blocks
+    'block-no-redundant-nested-style-rules': true,
     // Disallow longhand properties that can be combined into one shorthand property
     'declaration-block-no-redundant-longhand-properties': true,
     // Disallow redundant values in shorthand properties

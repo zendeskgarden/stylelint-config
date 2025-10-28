@@ -7,6 +7,7 @@
 
 module.exports = {
   extends: [
+    './rules/avoid-errors/deprecated',
     './rules/avoid-errors/descending',
     './rules/avoid-errors/duplicate',
     './rules/avoid-errors/empty',

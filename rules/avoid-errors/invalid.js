@@ -7,6 +7,8 @@
 
 module.exports = {
   rules: {
+    // Disallow invalid preludes for at-rules
+    'at-rule-prelude-no-invalid': true,
     // Disallow invalid hex colors
     'color-no-invalid-hex': true,
     // Disallow an unspaced operator within `calc` functions
@@ -21,7 +23,11 @@ module.exports = {
     'no-invalid-double-slash-comments': true,
     // Disallow invalid position `@import` rules
     'no-invalid-position-at-import-rule': true,
+    // Disallow invalid position declarations
+    'no-invalid-position-declaration': true,
     // Disallow (unescaped) newlines in strings
-    'string-no-newline': true
+    'string-no-newline': true,
+    // Disallow invalid syntax strings
+    'syntax-string-no-invalid': true
   }
 };

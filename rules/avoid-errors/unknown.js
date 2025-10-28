@@ -9,6 +9,10 @@ module.exports = {
   rules: {
     // Disallow unknown annotations
     'annotation-no-unknown': true,
+    // Disallow unknown at-rule descriptors
+    'at-rule-descriptor-no-unknown': true,
+    // Disallow unknown values for descriptors within at-rules
+    'at-rule-descriptor-value-no-unknown': true,
     // Disallow unknown at-rules
     'at-rule-no-unknown': true,
     // Disallow unknown values for properties within declarations
