@@ -1,6 +1,30 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [23.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v22.0.0...v23.0.0) (2025-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* enables the following new rules...
+
+- `at-rule-no-deprecated`
+- `declaration-property-value-keyword-no-deprecated`
+- `media-type-no-deprecated`
+- `property-no-deprecated`
+- `at-rule-prelude-no-invalid`
+- `no-invalid-position-declaration`
+- `syntax-string-no-invalid`
+- `nesting-selector-no-missing-scoping-root`
+- `at-rule-descriptor-no-unknown`
+- `at-rule-descriptor-value-no-unknown`
+- `color-function-alias-notation`
+- `block-no-redundant-nested-style-rules`
+
+### Features
+
+* update all non-major dependencies ([#277](https://github.com/zendeskgarden/stylelint-config/issues/277)) ([0fd9966](https://github.com/zendeskgarden/stylelint-config/commit/0fd9966d3c19e47749ac99d4e7a849dacb2120ba))
 
 ## [22.0.0](https://github.com/zendeskgarden/stylelint-config/compare/v21.0.0...v22.0.0) (2024-07-11)
 
