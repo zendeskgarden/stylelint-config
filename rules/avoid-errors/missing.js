@@ -10,6 +10,8 @@ module.exports = {
     // Disallow missing `var` function for custom properties
     'custom-property-no-missing-var-function': true,
     // Disallow missing generic families in lists of font family names
-    'font-family-no-missing-generic-family-keyword': true
+    'font-family-no-missing-generic-family-keyword': true,
+    // Disallow missing scoping root for nesting selectors
+    'nesting-selector-no-missing-scoping-root': true
   }
 };

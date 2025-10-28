@@ -9,12 +9,16 @@ module.exports = {
   rules: {
     // Specify a pattern for comments
     'comment-pattern': null,
+    // Specify a pattern for container names
+    'container-name-pattern': null,
     // Specify pattern of custom media query names
     'custom-media-pattern': 'zd-.+',
     // Specify pattern of custom properties
     'custom-property-pattern': 'zd-.+',
     // Specify a pattern for keyframe names
     'keyframes-name-pattern': 'zd-.+',
+    // Specify a pattern for layer names
+    'layer-name-pattern': null,
     // Specify a pattern for class selectors
     'selector-class-pattern': null,
     // Specify a pattern for id selectors

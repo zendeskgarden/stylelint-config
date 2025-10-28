@@ -87,6 +87,8 @@ module.exports = {
 
     /* Rule */
 
+    // Require rules to be nested in specific at-rules
+    'rule-nesting-at-rule-required-list': null,
     // Specify a list of disallowed properties for selectors within rules
     'rule-selector-property-disallowed-list': null,
 

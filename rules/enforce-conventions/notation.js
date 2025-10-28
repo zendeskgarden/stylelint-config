@@ -9,6 +9,8 @@ module.exports = {
   rules: {
     // Specify percentage or number notation for alpha-values
     'alpha-value-notation': 'number',
+    // Specify alias notation for color-functions
+    'color-function-alias-notation': 'without-alpha',
     // Specify modern or legacy notation for applicable color-functions
     'color-function-notation': 'modern',
     // Specify short or long notation for hex colors
