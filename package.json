@@ -37,7 +37,7 @@
     "eslint-config-prettier": "10.1.8",
     "husky": "9.1.7",
     "prettier-package-json": "2.8.0",
-    "stylelint": "16.25.0"
+    "stylelint": "16.26.0"
   },
   "keywords": [
     "garden",
