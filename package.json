@@ -27,7 +27,7 @@
     "stylelint-order": "7.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.25.0"
+    "stylelint": "^16.25.0 || ^17.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
@@ -37,7 +37,7 @@
     "eslint-config-prettier": "10.1.8",
     "husky": "9.1.7",
     "prettier-package-json": "2.8.0",
-    "stylelint": "16.25.0"
+    "stylelint": "17.15.0"
   },
   "keywords": [
     "garden",
