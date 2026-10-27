@@ -24,20 +24,20 @@
     "test": "npm run lint && npm run format && git diff --quiet"
   },
   "dependencies": {
-    "stylelint-order": "7.0.0"
+    "stylelint-order": "7.0.1"
   },
   "peerDependencies": {
     "stylelint": "^16.25.0"
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
-    "@zendeskgarden/eslint-config": "47.0.0",
-    "commit-and-tag-version": "12.6.0",
-    "eslint": "9.38.0",
+    "@zendeskgarden/eslint-config": "47.1.0",
+    "commit-and-tag-version": "12.7.3",
+    "eslint": "9.39.5",
     "eslint-config-prettier": "10.1.8",
     "husky": "9.1.7",
     "prettier-package-json": "2.8.0",
-    "stylelint": "16.25.0"
+    "stylelint": "16.26.1"
   },
   "keywords": [
     "garden",
